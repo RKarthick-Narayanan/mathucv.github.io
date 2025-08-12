@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rajamathangi Shanmugasundaram — CV</title>
+  <meta name="description" content="Curriculum Vitae of Rajamathangi Shanmugasundaram" />
+   <style>
+  /* =====================
+     Design Tokens
+     ===================== */
+  :root{
+    --bg: #0b0d10;
+    --panel: #10141a;
+    --muted: #a7b0bf;
+    --text: #e6e9ef;
+    --brand: #4f8cff;
+    --brand-2:#7ee787;
+    --outline: #1f2836;
+    --accent: #ffd166;
+    --maxw: 980px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{
+      --bg:#f7f9fc; --panel:#ffffff; --muted:#5b6777; --text:#0f172a;
+      --outline:#e5e9f0; --brand:#2b6cff; --brand-2:#188a42; --accent:#a66b00;
+    }
+  }
+
+  /* ========== Base ========== */
+  *{ box-sizing:border-box }
+  html{ scroll-behavior:smooth }
+  @media (prefers-reduced-motion: reduce){ html{ scroll-behavior:auto } }
+  body{ margin:0; font: 15px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; background:var(--bg); color:var(--text); }
+  a{ color:var(--brand); text-decoration:none }
+  a:hover{ text-decoration:underline }
+
+  /* ========== Header (title block) ========== */
+  header.hero{ max-width:var(--maxw); margin:20px auto 0; padding:22px 18px; text-align:center; }
+  header.hero h1{ margin:0; font-size: clamp(28px, 5vw, 42px); line-height:1.15 }
+  header.hero p{ margin:8px 0 0; color:var(--muted) }
+
+  /* ========== Top Nav (appears below heading) ========== */
+  .nav{ position:sticky; top:0; z-index:1000; backdrop-filter:saturate(180%) blur(8px);
+        background: color-mix(in oklab, var(--panel) 88%, transparent);
+        border-top:1px solid var(--outline); border-bottom:1px solid var(--outline); }
+  .nav-inner{ max-width:var(--maxw); margin:0 auto; padding:10px 16px; display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:16px }
+  .nav a{ padding:8px 10px; border-radius:10px }
+  .nav a:hover{ background: color-mix(in oklab, var(--brand) 12%, transparent) }
+  .nav a:focus-visible{ outline:2px solid var(--brand); outline-offset:2px }
+
+  /* ========== Main layout & sections ========== */
+  .wrap{ max-width: var(--maxw); margin: 0 auto; padding: 28px 16px 64px }
+  .section{ margin-top:28px; padding:18px; border:1px solid var(--outline); background:var(--panel); border-radius:18px }
+  .section h2{ margin:0 0 12px; font-size: clamp(18px, 3vw, 22px); border-bottom:1px dashed var(--outline); padding-bottom:10px }
+  .grid-2{ display:grid; grid-template-columns: 1fr; gap:12px }
+  @media(min-width:800px){ .grid-2{ grid-template-columns: 1fr 1fr } }
+
+  .meta{ color:var(--muted); font-size:.95em }
+  .pill{ display:inline-block; padding:4px 10px; border-radius:999px; border:1px solid var(--outline); background:color-mix(in oklab, var(--panel) 92%, transparent); margin:2px 6px 2px 0 }
+
+  .item{ padding:10px 0; border-top:1px dashed var(--outline) }
+  .item:first-of-type{ border-top:0 }
+  .role{ font-weight:600 }
+
+  ul.clean{ list-style:none; padding:0; margin:0 }
+  ul.clean li{ padding:6px 0; border-top:1px dashed var(--outline) }
+  ul.clean li:first-child{ border-top:0 }
+
+  .footer{ margin:40px 0 0; text-align:center; color:var(--muted); font-size:.9em }
+
+  /* ========== Print ========== */
+  @media print{
+    .nav{ display:none }
+    body{ background:#fff; color:#000 }
+    .section, header.hero{ border:0; background:#fff; padding:0; border-radius:0 }
+    .wrap{ padding:0 }
+    a{ color:#000; text-decoration:underline }
+  }
+</style>
+</head>
+<body>
+ <header class="hero">
+    <h1>Rajamathangi Shanmugasundaram</h1>
+    <p>Morphosyntax • Ellipsis • Heritage Tamil • Dravidian linguistics • Fieldwork</p>
+  </header>
+  <!-- Top Navigation -->
+  <nav class="nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a href="#contact">Contact</a>
+      <a href="#summary">Profile</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#talks">Talks</a>
+      <a href="#workshops">Workshops</a>
+      <a href="#publications">Publications</a>
+      <a href="#skills">Skills</a>
+    </div>
+  </nav>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="grid-2">
+        <div>
+          <div><strong>Email:</strong> <a href="mailto:rajamathangi20@gmail.com">rajamathangi20@gmail.com</a></div>
+          <div><strong>Phone:</strong> <a href="tel:+919650972043">(+91) 9650972043</a></div>
+          <div><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rajamathangi-shanmugasundaram-8b0a5013a" target="_blank" rel="noopener">/rajamathangi-shanmugasundaram-8b0a5013a</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="summary" class="section">
+      <h2>Professional Summary</h2>
+      <p>Postdoctoral researcher in linguistics with expertise in morphosyntax, ellipsis, and heritage language studies (Dravidian). Bridges formal syntactic theory and empirical fieldwork. Current SNSF-funded project at the University of Lausanne investigates morphosyntactic variation in Swiss Tamil using fieldwork‑based data, sociolinguistics, and typology.</p>
+      <p>Presented at international venues, contributed to computational linguistics collaborations, and taught core courses (syntax, phonology). Long-term goal: comparative syntax of Dravidian, with focus on ellipsis and null object constructions in typological and heritage contexts.</p>
+      <div class="meta">Keywords: Ellipsis • Null objects • Information structure • Heritage Tamil • Dravidian</div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="item">
+        <div class="role">Ph.D., Linguistics — Jawaharlal Nehru University, New Delhi</div>
+        <div class="meta">2016–2022 • Defended: 23 June 2022 • Centre for Linguistics</div>
+        <div><em>Thesis:</em> “Elliptical phenomena in spoken Tamil” — investigates structure, licensing conditions, and information‑structure parallelism; includes analyses of coordination, disjunction, additive marking, comparatives, right‑node‑raising, clefts, ATB and V‑T movement, and wh‑movement.</div>
+      </div>
+      <div class="item">
+        <div class="role">M.A., Linguistics — Jawaharlal Nehru University</div>
+        <div class="meta">2015 • CGPA: 7.9/9</div>
+      </div>
+      <div class="item">
+        <div class="role">B.A., English Literature (First Rank) — Sri Sarada College for Women, Periyar University, Salem</div>
+        <div class="meta">2013 • CGPA: 7.5/10</div>
+      </div>
+      <div class="item">
+        <div class="role">Secondary Education</div>
+        <div class="meta">Class XII: 884/1200 (74%) • Class X: 460/500 (92%)</div>
+      </div>
+    </section>
+
+    <section id="awards" class="section">
+      <h2>Fellowships & Awards</h2>
+      <ul class="clean">
+        <li><span class="pill">2015</span> UGC–Junior Research Fellowship (Linguistics)</li>
+        <li><span class="pill">2013</span> Best Outgoing Student, Sri Sarada College for Women, Salem</li>
+      </ul>
+    </section>
+
+    <section id="leadership" class="section">
+      <h2>Leadership</h2>
+      <div class="item">
+        <div class="role">Joint Secretary, Student Union</div>
+        <div class="meta">2012–2013 • Sri Sarada College for Women, Salem</div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills & Languages</h2>
+      <p><strong>Research:</strong> Phonetic transcription; data elicitation and fieldwork; FLEx; ELAN; Praat; LaTeX; LimeSurvey.</p>
+      <p><strong>Languages:</strong> Tamil (native; speaking/reading/writing), English (speaking/reading/writing), Malayalam (speaking).</p>
+    </section>
+
+    <section id="interests" class="section">
+      <h2>Research Interests</h2>
+      <p><strong>Morphology & Syntax:</strong> Ellipsis constructions, negation, clefts, null coordination, focus particles.</p>
+      <p><strong>Sociolinguistics (Heritage Tamil):</strong> Language attrition, maintenance, linguistic features of heritage Tamil.</p>
+    </section>
+
+    <section id="fieldwork" class="section">
+      <h2>Fieldwork</h2>
+      <ul class="clean">
+        <li><span class="pill">2014 Dec</span> Tinker Lo (Tibeto‑Burman), Darchula, Nepal</li>
+        <li><span class="pill">2018 Sep</span> Spiti (Tibeto‑Burman), Kangra, Himachal Pradesh</li>
+        <li><span class="pill">2022 Aug–Oct</span> Parengi (South Munda), Mysore, Karnataka</li>
+      </ul>
+    </section>
+
+    <section id="teaching" class="section">
+      <h2>Teaching</h2>
+      <div class="item">
+        <div class="role">Teaching Assistant (JNU)</div>
+        <div class="meta">2017 — LE487L Generative Syntax I (Feb–May); LE488L Generative Syntax II (Aug–Nov)</div>
+      </div>
+      <div class="item">
+        <div class="role">Contract Faculty, Central University of Karnataka (Kalaburagi)</div>
+        <div class="meta">16 Mar 2022 – 17 Jun 2022</div>
+        <div>
+          <strong>MA Sem I (Mar–Apr 2022):</strong> Phonology; History of Language Studies in India; Field Visit<br>
+          <strong>MA Sem II (May–Jun 2022):</strong> Semantics & Pragmatics; Historical Linguistics
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Professional Experience</h2>
+      <div class="item">
+        <div class="role">Senior Resource Person (Contract), SPPEL — CIIL, Mysore</div>
+        <div class="meta">1 Aug 2022 – 31 Mar 2023</div>
+      </div>
+      <div class="item">
+        <div class="role">Postdoctoral Researcher, SNSF Project “Swiss Tamil” — University of Lausanne</div>
+        <div class="meta">1 Apr 2023 – present</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Project Experience</h2>
+      <ul class="clean">
+        <li><span class="pill">Nov–Dec 2019</span> Visiting scholar & consultant, Tamil Computational Grammar (ParGram, DAAD), University of Konstanz (Mentor: Prof. Miriam Butt)</li>
+        <li><span class="pill">Sep 2021 – Jan 2022</span> Independent linguistics consultant (Tamil), Cerence (with Mr. Sachin Gaur)</li>
+        <li><span class="pill">Aug–Oct 2022</span> Resource person, Parengi/Gorum data elicitation for South Munda dictionaries workshop, CIIL, Mysore</li>
+      </ul>
+    </section>
+
+    <section id="talks" class="section">
+      <h2>Conference Presentations</h2>
+      <ul class="clean">
+        <li>2015 ICOLSI‑37, JNU — <em>The Dravidian Bagel</em> (with Rahul Balusu, Gurujegan M)</li>
+        <li>2016 GLOW‑39, Göttingen — <em>Bagel Problem Items in Telugu and Tamil</em> (with RB, GM)</li>
+        <li>2016 ICDL/AICDL‑44, UoH — <em>VP‑Ellipsis in Tamil?</em></li>
+        <li>2016 ICOLSI‑38, IIT‑G — <em>Stripping in Tamil</em></li>
+        <li>2017 SCONLI‑11, JU — <em>Stripping in Tamil</em></li>
+        <li>2018 SALA‑34, Konstanz (poster) — <em>V‑Stranding in Tamil</em></li>
+        <li>2019 NASLILANSI, JNU — <em>Negation in Spiti</em></li>
+        <li>2019 SynSem@the4thPot, JNU — <em>V‑Stranding Ellipsis in Tamil</em></li>
+        <li>2019 SALA‑35, INALCO — <em>Adverb Interpretations in V‑Stranding VP‑Ellipsis in Tamil</em></li>
+        <li>2019 SALA‑35, INALCO — <em>Stripping in Tamil: A PF‑deletion approach</em></li>
+        <li>2020 LFG‑25 (online), Oslo — <em>Mixed Categories in Tamil via Complex Categories</em> (with M. Butt & K. Sarveswaran)</li>
+        <li>2022 SALA‑36 & LSN‑43, Kathmandu — <em>Negation in Spiti</em></li>
+        <li>2023 Frankfurt — <em>Null Objects in Tamil</em> (Workshop)</li>
+        <li>2024 KLC, Konstanz — <em>Sluicing‑Like Construction in Tamil</em></li>
+        <li>2024 CLARIN‑CH Day, Neuchâtel — <em>Data Protection & Storage: Swiss‑Indian Project</em> (with A. Auer)</li>
+        <li>2024 INALCO (TAM in SAL), Paris — <em>Verb Raising in Tamil: Complex Predicates & VP Ellipsis</em> (online)</li>
+        <li>2024 ICON BigEllipsis, Chennai — <em>Bare Argument Ellipsis in Tamil: Three Types</em></li>
+      </ul>
+    </section>
+
+    <section id="webinars" class="section">
+      <h2>Research Colloquiums & Webinars</h2>
+      <ul class="clean">
+        <li>2019 Konstanz — <em>Parallelism of Information Structure in Tamil Ellipsis</em></li>
+        <li>2019 Tübingen — <em>Intervention Effects with wh‑phrases in Tamil</em></li>
+        <li>2020 JNU (Zoomdemic) — <em>Types of Ellipsis in Tamil</em></li>
+        <li>2021 UMass Syntax Workshop — <em>Mixed Category Analysis of Tamil Complementizers</em> (with M. Butt & K. Sarveswaran)</li>
+        <li>2024 CLARIN‑CH Webinar — <em>Cross‑border Projects: Which Laws Apply?</em> (with A. Auer)</li>
+        <li>2025 Univ. of Jaffna — Guest lecture: <em>Exploring Swiss Tamil as a Heritage Language</em> (6 Feb)</li>
+        <li>2025 UNIL CLSL — Invited talk: <em>Heritage Tamil in the Swiss Context</em> (26 May)</li>
+        <li>2025 CIVIS BIP (UNIL) — Guest talk: <em>Linguistic Variation in Swiss Tamil</em> (23 Jun)</li>
+      </ul>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+      <ul class="clean">
+        <li>Shanmugasundaram, R. (2023). <em>Stripping in Tamil: PF‑deletion Approach</em>. In G. Sharma & J. J. Lowe (eds.), <em>Advances in South Asian Linguistics</em>. Munich: LINCOM (LSAL 99). ISBN 978‑3969391242.</li>
+        <li>Butt, M., Sarveswaran, K., & Shanmugasundaram, R. (2020). <em>Mixed Categories in Tamil via Complex Categories</em>. In <em>Proceedings of LFG 2020</em>, 68–88. Stanford: CSLI Publications.</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>Last updated: 12 Aug 2025 • <a href="#top">Back to top ↑</a></p>
+    </footer>
+  </main>
+</body>
+</html>
